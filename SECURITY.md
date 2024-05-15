@@ -8,4 +8,4 @@
 
 ## Reporting a Vulnerability
 
-if any bugs or vulnerability occur please create a pull requestto report the issue
+if any bugs or vulnerability occur please create a issue to report the bug
