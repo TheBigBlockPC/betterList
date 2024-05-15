@@ -11,7 +11,7 @@
 
 ## Installation
 
-Copy the [betterList.py](betterList.py) in to your projectfolder
+Copy the [betterList.py](betterList.py) in to your project and have fun
 
 ## Usage
 
