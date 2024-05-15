@@ -204,7 +204,32 @@ class betterList(list):
         """
         self.apply_function(lambda x: x + value)
 
-    # Add docstrings to other methods similarly
+    def math_subtract(self, value):
+        """
+        Subtracts a value from each element of the list.
+
+        Args:
+            value: The value to subtract from each element.
+        """
+        self.apply_function(lambda x: x - value)
+
+    def math_add(self, value):
+        """
+        Moltiplys each element of the list with a value.
+
+        Args:
+            value: The value that each element gets multiplyed with.
+        """
+        self.apply_function(lambda x: x * value)
+
+    def math_divide(self, value):
+        """
+        Divides each element of the list by a value.
+
+        Args:
+            value: The value that each element gets divided by.
+        """
+        self.apply_function(lambda x: x / value)
 
     def __is_numerical__(var):
         """
